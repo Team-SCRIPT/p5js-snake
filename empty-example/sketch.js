@@ -1,7 +1,7 @@
 var height, width, scale, rows, columns, w;
 var snake, food;
 function setup() {
-  height = width = 600;
+  height = width = 700;
   scale = 20;
   createCanvas(width, height);
   snake = new Snake(300, 300);
