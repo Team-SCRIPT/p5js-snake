@@ -24,6 +24,7 @@ function draw() {
   snake.kill();
 }
 
+// Imitating Keyboard clicks
 function keyPressed() {
   if(keyCode == UP_ARROW) {
     snake.xSpeed = 0;
@@ -43,6 +44,7 @@ function keyPressed() {
   }
 }
 
+// Function to act as a cheat code. Triggers mouse click to increase the length
 function mousePressed() {
   snake.length++;
 }
